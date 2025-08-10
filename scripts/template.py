@@ -9,7 +9,7 @@
 # %%
 import anndata as ad
 
-from fancypackage import DATA_DIR, FIG_DIR
+from crabs import DATA_DIR, FIG_DIR
 
 # %% [markdown]
 # ## General settings
