@@ -3,25 +3,28 @@ requires = ['setuptools', 'setuptools_scm']
 build-backend = 'setuptools.build_meta'
 
 [project]
-name = "fancypackage"
+name = "crabs"
 version = "0.0.0"
-description = "Fancy Package"
+description = "CRABS Summer School 2025 - scRNA-seq practicals"
 readme = "README.md"
 requires-python = ">=3.11"
 license = {file = "LICENSE"}
 authors = [
-    {name = "Jane Doe"},
+    {name = "Philipp Weiler"},
 ]
 maintainers = [
-    {name = "Jane Doe", email = "jane.doe@usa.com"},
+    {name = "Philipp Weiler", email = "weilerp@mskcc.org"},
 ]
-urls.Documentation = "https://todo.com"  # TODO
-urls.Source = "https://github.com/url/to/repo.git"
-urls.Home-page = "https://github.com/url/to/repo.git"
+urls.Documentation = "https://github.com/WeilerP/crabs2025"  # TODO
+urls.Source = "https://github.com/WeilerP/crabs2025"
+urls.Home-page = "https://github.com/WeilerP/crabs2025"
 dependencies = [
     "anndata",
     "dask",
+    "igraph",
+    "leidenalg",
     "scanpy",
+    "scikit-image",
     "zarr<3",
 ]
 
