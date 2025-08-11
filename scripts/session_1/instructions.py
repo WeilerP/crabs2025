@@ -116,6 +116,9 @@ from crabs import DATA_DIR  # noqa
 # How many cells does scrublet identify as putative doublets?
 
 
+# %% [markdown]
+# ### Transformation and feature selection
+
 # %%
 # Normalize the cells to their median library size (total number of transcripts per cell)
 
