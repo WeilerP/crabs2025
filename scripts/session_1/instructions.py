@@ -4,6 +4,11 @@
 # In this first session, we will preprocess and cell type a [dataset of peripheral blood mononuclear cells](https://www.10xgenomics.com/datasets/10-k-pbm-cs-from-a-healthy-donor-v-3-chemistry-3-standard-3-0-0) (PBMCs).
 #
 # If you cloned the GitHub repo and installed the corresponding package, save the data in the `data/` directory.
+#
+# Useful links:
+# * [anndata](https://anndata.readthedocs.io/en/stable/)
+# * [scanpy](https://scanpy.readthedocs.io/en/stable/)
+# * [Single-cell best practices book](https://www.sc-best-practices.org/preamble.html)
 
 # %% [markdown]
 # ## Library imports
