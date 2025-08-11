@@ -31,3 +31,14 @@ python -m ipykernel install --user --name crabs-py311 --display-name "crabs-py31
 ## Jupter lab
 
 To run Jupyter Notebooks you can either use an IDE like [Visual Studio Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks), or [start a Jupyter server from your terminal](https://jupyterlab.readthedocs.io/en/stable/getting_started/starting.html).
+
+## Useful links
+
+Some relevant Python packages:
+
+-   [AnnData](https://anndata.readthedocs.io/en/stable/)
+-   [Scanpy](https://scanpy.readthedocs.io/en/stable/)
+
+Some resources, useful for our practical session are:
+
+-   [Single-cell best practices book](https://www.sc-best-practices.org/preamble.html)
