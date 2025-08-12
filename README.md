@@ -4,7 +4,7 @@
 
 There are two options to complete our practical session:
 
-1. You can clone this GitHub repo and install the corresponding package:
+1. You can clone this GitHub repo and install the corresponding package (preferred):
 
 ```bash
 # If you use mamba, simply replace `conda` by `mamba`
@@ -23,7 +23,7 @@ python -m ipykernel install --user --name crabs-py311 --display-name "crabs-py31
 # If you use mamba, simply replace `conda` by `mamba`
 conda create -n crabs-py311 python=3.11 --yes && conda activate crabs-py311
 
-pip install anndata igraph leidenalg scanpy scikit-image jupyterlab ipywidget
+pip install anndata igraph leidenalg scanpy scikit-image jupyterlab ipywidgets
 
 python -m ipykernel install --user --name crabs-py311 --display-name "crabs-py311"
 ```
