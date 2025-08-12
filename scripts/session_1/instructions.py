@@ -16,6 +16,7 @@
 # %%
 # `DATA_DIR` is a pathlib Path pointing to this repo's data directory.
 # You can specify a path with the syntax `DATA_DIR / path / to / file`.
+# Note: This import command only works if you followed the first installation instructions!
 from crabs import DATA_DIR  # noqa
 
 # %% [markdown]
@@ -140,7 +141,7 @@ from crabs import DATA_DIR  # noqa
 
 
 # %%
-# What is a suitbale number of principle components to use
+# What is a suitable number of principle components to use
 
 
 # %%
