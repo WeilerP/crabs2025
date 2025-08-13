@@ -66,12 +66,6 @@ adata_2
 # ## Data exploration
 
 # %%
-adata_1
-
-# %%
-adata_1.obs["Sample"].unique()
-
-# %%
 # Convert the count data into an appropriate, data-efficient format
 adata_1.X = csr_matrix(adata_1.X)
 adata_2.X = csr_matrix(adata_2.X)
